@@ -7,7 +7,7 @@ var chocolateBars = [
   
 function addElementToBeginningOfArray(array, element) {
   var thisArray = [1]
-  ["foo", ...thisArray]
+  thisArray.unshift("foo")
   return thisArray
 }
 
