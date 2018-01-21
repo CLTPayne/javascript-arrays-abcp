@@ -11,13 +11,13 @@ function addElementToBeginningOfArray(element, array) {
   return thisNewArray
 }
 
-function destructivelyAddElementToBeginningOfArray(element, array) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   const thisArray = [1]
   thisArray.unshift ("foo")
   return thisArray
 }
 
-function addElementToEndOfArray(element, array) {
+function addElementToEndOfArray(array,element) {
   const thisArray = [1]
   const thisNewArray = [...thisArray, 'foo']
   return thisNewArray
