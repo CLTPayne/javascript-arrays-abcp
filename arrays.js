@@ -17,6 +17,12 @@ function destructivelyAddElementToBeginningOfArray(element, array) {
   return thisArray
 }
 
+function addElementToEndOfArray(element, array) {
+  const thisArray = [1]
+  const thisNewArray = [...thisArray, 'foo']
+  return thisNewArray
+}
+
 function accessElementInArray(array, index) {
   var array = 
 }
