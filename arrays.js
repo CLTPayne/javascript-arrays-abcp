@@ -22,7 +22,3 @@ function addElementToEndOfArray(element, array) {
   const thisNewArray = [...thisArray, 'foo']
   return thisNewArray
 }
-
-function accessElementInArray(array, index) {
-  var array = 
-}
